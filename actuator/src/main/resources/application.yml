@@ -1,0 +1,20 @@
+management:
+  server:
+    port: 8030
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+spring:
+  boot:
+    admin:
+      client:
+        url: "http://localhost:8082"
+        instance:
+          prefer-ip: true
+        username: user
+        password: 123456

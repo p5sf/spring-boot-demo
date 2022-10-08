@@ -1,0 +1,8 @@
+server:
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-type: jks
+    key-alias: tomcat
+    key-store-password: zuozewei
+    key-password: zuozewei
+    enabled: true

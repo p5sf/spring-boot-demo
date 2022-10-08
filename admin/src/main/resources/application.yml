@@ -1,0 +1,18 @@
+server:
+  port: 8082
+spring:
+  security:
+    user:
+      name: user
+      password: 123456
+  mail:
+    host: smtp.qq.com
+    username: 1770285990@qq.com
+    password: whluaalrvayxdifg
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 1770285990@qq.com
+          from: 1770285990@qq.com
+

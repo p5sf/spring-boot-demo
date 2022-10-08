@@ -1,0 +1,30 @@
+com:
+  users:
+    name: alice
+    age: 20
+
+    # list格式
+    hobby:
+      - java
+      - c
+      - python
+
+    # Object格式
+    student:
+      name: smith
+      age: 13
+    # map格式
+    chat:
+      wechat: www.wechat.com
+      git: www.github.com
+      qq: www.qq.com
+
+    # Json 格式
+
+    # result: '{"token":"123456","timestamp","1610880489123"}'
+
+
+
+
+
+
